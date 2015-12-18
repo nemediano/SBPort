@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleClear", "SimpleClear\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimplePoint", "SimplePoint\SimplePoint.vcxproj", "{F53B7894-855F-4943-BDF0-DD2E05BEE09F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleTriangle", "SimpleTriangle\SimpleTriangle.vcxproj", "{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -41,6 +43,14 @@ Global
 		{F53B7894-855F-4943-BDF0-DD2E05BEE09F}.Release|Win32.Build.0 = Release|Win32
 		{F53B7894-855F-4943-BDF0-DD2E05BEE09F}.Release|x64.ActiveCfg = Release|x64
 		{F53B7894-855F-4943-BDF0-DD2E05BEE09F}.Release|x64.Build.0 = Release|x64
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Debug|Win32.Build.0 = Debug|Win32
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Debug|x64.ActiveCfg = Debug|x64
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Debug|x64.Build.0 = Debug|x64
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Release|Win32.ActiveCfg = Release|Win32
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Release|Win32.Build.0 = Release|Win32
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Release|x64.ActiveCfg = Release|x64
+		{929394A7-60AF-4E81-9EA7-CC1C38CD45A7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
