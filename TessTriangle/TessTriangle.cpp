@@ -106,7 +106,7 @@ void display() {
 	glUseProgram(rendering_program);
 
 	// Draw one point
-	glDrawArrays(GL_TRIANGLES, 0, 3);
+	glDrawArrays(GL_PATCHES, 0, 3);
 
 	glutSwapBuffers();
 }
@@ -220,8 +220,8 @@ GLuint compile_shaders(void)
 	program = glCreateProgram();
 	glAttachShader(program, vertex_shader);
 	glAttachShader(program, fragment_shader);
-	//glAttachShader(program, tess_control_shader);
-	//glAttachShader(program, tess_evaluation_shader);
+	glAttachShader(program, tess_control_shader);
+	glAttachShader(program, tess_evaluation_shader);
 	glLinkProgram(program);
 	glGetProgramiv(program, GL_LINK_STATUS, &status);
 	if (status == GL_FALSE) {
