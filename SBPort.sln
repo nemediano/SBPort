@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MovingTriangle", "MovingTri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TessTriangle", "TessTriangle\TessTriangle.vcxproj", "{80A498DC-7773-4AEC-A963-7FC9480174CF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeomTriangle", "GeomTriangle\GeomTriangle.vcxproj", "{8B26DB7F-8144-422C-842C-C99EE380B7A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -71,6 +73,14 @@ Global
 		{80A498DC-7773-4AEC-A963-7FC9480174CF}.Release|Win32.Build.0 = Release|Win32
 		{80A498DC-7773-4AEC-A963-7FC9480174CF}.Release|x64.ActiveCfg = Release|x64
 		{80A498DC-7773-4AEC-A963-7FC9480174CF}.Release|x64.Build.0 = Release|x64
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Debug|Win32.Build.0 = Debug|Win32
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Debug|x64.ActiveCfg = Debug|x64
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Debug|x64.Build.0 = Debug|x64
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Release|Win32.ActiveCfg = Release|Win32
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Release|Win32.Build.0 = Release|Win32
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Release|x64.ActiveCfg = Release|x64
+		{8B26DB7F-8144-422C-842C-C99EE380B7A2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
